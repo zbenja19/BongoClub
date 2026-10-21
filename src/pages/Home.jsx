@@ -29,13 +29,13 @@ export default function Home() {
               Ver carta
             </Link>
           </Col>
-          <Col md={6}>
+          <Col md={6} className="text-center">
             <img
               src="/images/bongo-club.jpg"
               alt="Ambiente del Bongo Club"
-              className="home__about-img"
+              className="img-fluid rounded home__about-img"
             />
-          </Col>
+        </Col>
         </Row>
       </Container>
     </>
